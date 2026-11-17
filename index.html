@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <meta name="description" content="Computer science student seeking internships. Projects, skills, and contact info." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">Your Name</a>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero container">
+      <p class="eyebrow">Computer Science Student</p>
+      <h1>Hi, I'm Your Name.<br />I build things for the web.</h1>
+      <p class="lead">
+        I'm a [year] studying [major] at [school], looking for a [summer 2027] internship
+        in software engineering. I enjoy turning ideas into clean, working products.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="assets/resume.pdf" target="_blank" rel="noopener">View Resume</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <div class="grid">
+
+        <article class="card">
+          <h3>Project One</h3>
+          <p>One or two sentences on what it does and why you built it. Mention the impact or what you learned.</p>
+          <ul class="tags">
+            <li>Python</li><li>Flask</li><li>SQLite</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/yourusername/project-one" target="_blank" rel="noopener">GitHub</a>
+            <a href="#" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>Describe the problem, your approach, and the result. Concrete details beat vague claims.</p>
+          <ul class="tags">
+            <li>JavaScript</li><li>React</li><li>API</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/yourusername/project-two" target="_blank" rel="noopener">GitHub</a>
+            <a href="#" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>Class project, hackathon, or personal tool. Say what your role was if it was a team effort.</p>
+          <ul class="tags">
+            <li>Java</li><li>Git</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/yourusername/project-three" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Languages</h3>
+          <p>Python, JavaScript, Java, C++, SQL</p>
+        </div>
+        <div>
+          <h3>Web</h3>
+          <p>HTML, CSS, React, Node.js</p>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <p>Git, GitHub, VS Code, Linux</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container section contact">
+      <h2>Let's talk</h2>
+      <p class="lead">I'm open to internship opportunities. The best way to reach me is email.</p>
+      <a class="btn btn-primary" href="mailto:you@example.com">you@example.com</a>
+      <div class="socials">
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Your Name</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
